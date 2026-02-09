@@ -1,0 +1,414 @@
+{
+	"pronouns": [
+		{
+			"id": null,
+			"type": "pronoun",
+			"conjugation": 1,
+			"subjective": "I",
+			"objective": "me",
+			"possessive": "mine",
+			"possessiveDeterminer": "my",
+			"reflexive": "myself"
+		},
+		{
+			"id": null,
+			"type": "pronoun",
+			"conjugation": 2,
+			"subjective": "you",
+			"objective": "you",
+			"possessive": "yours",
+			"possessiveDeterminer": "your",
+			"reflexive": "yourself"
+		},
+		{
+			"id": null,
+			"type": "pronoun",
+			"conjugation": 3,
+			"subjective": "he",
+			"objective": "him",
+			"possessive": "his",
+			"possessiveDeterminer": "his",
+			"reflexive": "himself"
+		},
+		{
+			"id": null,
+			"type": "pronoun",
+			"conjugation": 3,
+			"subjective": "she",
+			"objective": "her",
+			"possessive": "hers",
+			"possessiveDeterminer": "her",
+			"reflexive": "herself"
+		},
+		{
+			"id": null,
+			"type": "pronoun",
+			"conjugation": 2,
+			"subjective": "they",
+			"objective": "them",
+			"possessive": "theirs",
+			"possessiveDeterminer": "their",
+			"reflexive": "themselves"
+		},
+		{
+			"id": null,
+			"type": "pronoun",
+			"conjugation": 2,
+			"subjective": "we",
+			"objective": "us",
+			"possessive": "ours",
+			"possessiveDeterminer": "our",
+			"reflexive": "ourselves"
+		},
+		{
+			"id": null,
+			"type": "pronoun",
+			"conjugation": 3,
+			"subjective": "someone",
+			"objective": "someone",
+			"possessive": "someone's",
+			"possessiveDeterminer": "someone's",
+			"reflexive": "someone"
+		},
+		{
+			"id": null,
+			"type": "pronoun",
+			"conjugation": 3,
+			"subjective": "someone else",
+			"objective": "someone else",
+			"possessive": "someone else's",
+			"possessiveDeterminer": "someone else's",
+			"reflexive": "someone else"
+		}
+	],
+	
+	"nouns": [
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "Valentine"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "parasocial Twitch streamer"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "AI girlfriend replacement"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "dad"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "bodypillow"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "Snuggie"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "lukewarm cup of tea"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "Jerkmate Ranked teammate"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "goth girlfriend"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "refreshing glass of water"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "Femboy Hooters waiter"
+		},
+		{
+			"type": "noun",
+			"tags": ["object of affection"],
+			"word": "goober"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "heart"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "kidney"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "manboob"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "pecker"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "bunny"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "bloodshot eye"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "blood"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "spleen"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "fingernail"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "tail"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "whisker"
+		},
+		{
+			"type": "noun",
+			"tags": ["organ"],
+			"word": "liver"
+		}
+	],
+	
+	"adjectives": [
+		{
+			"type": "adjective",
+			"word": "sweet"
+		},
+		{
+			"type": "adjective",
+			"word": "sour"
+		},
+		{
+			"type": "adjective",
+			"word": "savoury"
+		},
+		{
+			"type": "adjective",
+			"word": "epic"
+		},
+		{
+			"type": "adjective",
+			"word": "scary"
+		},
+		{
+			"type": "adjective",
+			"word": "haunted"
+		},
+		{
+			"type": "adjective",
+			"word": "crazy"
+		}
+	],
+	
+	"interjections": [
+		{
+			"type": "interjection",
+			"word": "Wow",
+			"punctuation": [".", "!", ",", "...", "~"]
+		},
+		{
+			"type": "interjection",
+			"word": "That's crazy",
+			"punctuation": [".", "!", ",", "..."]
+		},
+		{
+			"type": "interjection",
+			"word": "Huh",
+			"punctuation": [".", "!", "?", "..."]
+		},
+		{
+			"type": "interjection",
+			"word": "Woah",
+			"punctuation": [".", "!", ",", "...", "~"]
+		},
+		{
+			"type": "interjection",
+			"word": "Hey",
+			"punctuation": [".", "!", ",", "~", "..."]
+		},
+		{
+			"type": "interjection",
+			"word": "Hi",
+			"punctuation": [".", "!", ",", "...", "~"]
+		},
+		{
+			"type": "interjection",
+			"word": "Cool",
+			"punctuation": [".", "!", "?", ","]
+		},
+		{
+			"type": "interjection",
+			"word": "What",
+			"punctuation": ["?!", "?", "..."]
+		},
+		{
+			"type": "interjection",
+			"word": "Ahem",
+			"punctuation": [".", "!", ",", "...", "~"]
+		},
+		{
+			"type": "interjection",
+			"word": "Eh",
+			"punctuation": ["?", "..."]
+		},
+		{
+			"type": "interjection",
+			"word": "No way",
+			"punctuation": [".", "!", "..."]
+		},
+		{
+			"type": "interjection",
+			"word": "Wicked",
+			"punctuation": [".", "!"]
+		},
+		{
+			"type": "interjection",
+			"word": "Man",
+			"punctuation": [",", ".", "!", "..."]
+		},
+		{
+			"type": "interjection",
+			"word": "Grr",
+			"punctuation": ["...", ","]
+		},
+		{
+			"type": "interjection",
+			"word": "Indeed",
+			"punctuation": [".", "!", ","]
+		}
+	],
+	
+	"verbs": [
+		{
+			"type": "verb",
+			"tags": ["verbal noun", "not linking"], 
+			"present": {"1": "kiss", "2": "kiss", "3": "kisses"}
+		},
+		{
+			"type": "verb",
+			"tags": ["verbal noun", "not linking"],
+			"present": {"1": "melt", "2": "melt", "3": "melts"}
+		},
+		{
+			"type": "verb",
+			"tags": ["verbal noun", "not linking"],
+			"present": {"1": "butter", "2": "butter", "3": "butters"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "steamroll", "2": "steamroll", "3": "steamrolls"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "steal", "2": "steal", "3": "steals"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "jumpstart", "2": "jumpstart", "3": "jumpstarts"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "boil", "2": "boil", "3": "boils"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "love", "2": "love", "3": "loves"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "pluck", "2": "pluck", "3": "plucks"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "season", "2": "season", "3": "seasons"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "taste", "2": "taste", "3": "tastes"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "squat", "2": "squat", "3": "squats"}
+		},
+		{
+			"type": "verb",
+			"tags": ["not linking", "verbal noun"],
+			"present": {"1": "meet", "2": "meet", "3": "meets"}
+		},
+		{
+			"type": "verb",
+			"tags": ["linking"],
+			"present": {"1": "am", "2": "are", "3": "is"}
+		},
+		{
+			"type": "verb",
+			"tags": ["linking"],
+			"present": {"1": "seem", "2": "seem", "3": "seems"}
+		},
+		{
+			"type": "verb",
+			"tags": ["linking"],
+			"present": {"1": "look", "2": "look", "3": "looks"}
+		},
+		{
+			"type": "verb",
+			"tags": ["linking"],
+			"present": {"1": "feel", "2": "feel", "3": "feels"}
+		},
+		{
+			"type": "verb",
+			"tags": ["linking"],
+			"present": {"1": "appear", "2": "appear", "3": "appears"}
+		},
+		{
+			"type": "verb",
+			"tags": ["linking"],
+			"present": {"1": "sound", "2": "sound", "3": "sounds"}
+		}
+	]
+}

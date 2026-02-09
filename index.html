@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+	<head>
+		<title>Valentine's Cards</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="styles.css" />
+		
+		<!-- Favicon nonsense. Thanks, https://realfavicongenerator.net ! -->
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Valentine's Cards" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+	</head>
+	<body>
+		<!-- Actual Valentine's card -->
+		<!-- 
+		Thanks to 
+		https://www.w3tutorials.net/blog/is-there-a-way-to-get-a-textarea-to-stretch-to-fit-its-content-without-using-php-or-javascript/ 
+		for letting me not use textareas. 
+		-->
+		<h2>Carnaltwin's Valentine's Card Maker</h2>
+		<span>Click on the text in the left panel to type. Or, generate a random greeting using the button below!</span>
+		<br><br>
+		
+		<span id="cardBorder">
+			<span id="greetingPanel">
+				<span id="greetingTextWrapper">
+					<span id="greetingText" class="cardText" contenteditable="true" role="textbox" aria-multiline="true"></span>
+				</span>
+				<span id="signatureTextWrapper">
+					<span id="toSignature" class="cardText" contenteditable="true" role="textbox" aria-multiline="true">To: ________</span>
+					<span id="fromSignature" class="cardText" contenteditable="true" role="textbox" aria-multiline="true">From: _______</span>
+				</span>
+			</span>
+			
+			<span id="artPanel">
+				<img id="cardArt" alt="Valentine's-related Pokémon art" />
+			</span>
+		</span>
+		
+		<!-- Set of controls under the Valentine's card for switching visuals -->
+		<button id="generateGreetingButton">New Greeting</button>
+		
+		<span id="cardControlPanel">
+			
+			<span id="leftBackgroundSelectWrapper" class="cardControl">
+				<label for="leftBackgroundSelect">Left Background: </label>
+				<select id="leftBackgroundSelect" name="leftBackgroundSelect"></select>
+			</span>
+			
+			<span id="borderSelectWrapper" class="cardControl">
+				<label for="borderSelect">Border: </label>
+				<select id="borderSelect" name="borderSelect"></select>
+			</span>
+			
+			<span id="rightBackgroundSelectWrapper" class="cardControl">
+				<label for="rightBackgroundSelect">Right Background: </label>
+				<select id="rightBackgroundSelect" name="rightBackgroundSelect"></select>
+			</span>
+			
+			<span id="pokemonSelectWrapper" class="cardControl">
+				<label for="pokemonSelect">Image: </label>
+				<select id="pokemonSelect" name="pokemonSelect"></select>
+			</span>
+		</span>
+		
+		<br>
+		<br>
+		<br>
+		<img src="./art/watermark.png" alt="Carnaltwin watermark" id="watermark"/>
+		
+		<script type="module" src="script.js"></script>
+	</body>
+</html>

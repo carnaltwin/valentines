@@ -1,0 +1,180 @@
+[
+	{
+		"sentence": [
+			{
+				"type": "static",
+				"word": "be"
+			},
+			{
+				"type": "pronoun",
+				"tense": "possessive"
+			}
+		],
+		"punctuation": "."
+	},
+	{
+		"sentence": [
+			{
+				"type": "static",
+				"word": "don't be"
+			},
+			{
+				"type": "pronoun",
+				"tense": "possessive"
+			}
+		],
+		"punctuation": "."
+	},
+	{
+		"sentence": [
+			{
+				"type": "pronoun",
+				"tense": "subjective",
+				"subject": 0
+			}, 
+			{
+				"type": "verb",
+				"tags": ["not linking"],
+				"tense": "present"
+			},
+			{
+				"type": "pronoun",
+				"tense": "objective",
+				"objectOf": 0
+			}
+		],
+		"punctuation": "."
+	},
+	{
+		"sentence": [
+			{
+				"type": "static",
+				"word": "will"
+			}, 
+			{
+				"type": "pronoun",
+				"tense": "subjective"
+			}, 
+			{
+				"type": "static",
+				"word": "be"
+			}, 
+			{
+				"type": "pronoun",
+				"tense": "possessiveDeterminer"
+			}, 
+			{
+				"type": "noun",
+				"tags": ["object of affection"]
+			}
+		],
+		"punctuation": "?"
+	},
+	{
+		"sentence": [
+			{
+				"type": "pronoun",
+				"tense": "subjective"
+			},
+			{
+				"type": "verb",
+				"tags": ["not linking"],
+				"tense": "present"
+			},
+			{
+				"type": "pronoun",
+				"tense": "possessiveDeterminer"
+			},
+			{
+				"type": "noun",
+				"tags": ["organ"]
+			}
+		],
+		"punctuation": "."
+	},
+	{
+		"sentence": [
+			{
+				"type": "static",
+				"word": "let's"
+			},
+			{
+				"type": "verb",
+				"tags": ["not linking"],
+				"tense": "present"
+			}
+		],
+		"punctuation": "!"
+	},
+	{
+		"sentence": [
+			{
+				"type": "static",
+				"word": "let's not"
+			},
+			{
+				"type": "verb",
+				"tags": ["not linking"],
+				"tense": "present"
+			}
+		],
+		"punctuation": "!"
+	},
+	{
+		"sentence": [
+			{
+				"type": "pronoun",
+				"tense": "subjective"
+			},
+			{
+				"type": "verb",
+				"tags": ["linking"],
+				"tense": "present"
+			},
+			{
+				"type": "adjective"
+			}
+		],
+		"punctuation": "."
+	},
+	{
+		"sentence": [
+			{
+				"type": "static",
+				"word": "first"
+			},
+			{
+				"type": "verb",
+				"tags": ["verbal noun"],
+				"tense": "present"
+			}
+		],
+		"punctuation": "!"
+	},
+	{
+		"sentence": [
+			{
+				"type": "adjective"
+			},
+			{
+				"type": "static",
+				"word": "4 U"
+			}
+		],
+		"punctuation": "."
+	},
+	{
+		"sentence": [
+			{
+				"type": "verb",
+				"tags": ["not linking"],
+				"tense": "present"
+			},
+			{
+				"type": "pronoun",
+				"tense": "objective"
+			}
+		],
+		"punctuation": "."
+	}
+]

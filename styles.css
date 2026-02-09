@@ -1,0 +1,160 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap'); */
+
+/** Thanks, https://www.w3schools.com/css/css3_fonts.asp */
+@font-face
+{
+	font-family: Kavoon;
+	src: url("./Kavoon/Kavoon-Regular.ttf");
+}
+
+body
+{
+	/* background-image: url("./art/borders/pathways.png"); */
+}
+
+span, h2
+{
+	/* Old Cookie Clicker font, my beloved~ */
+	font-family: Kavoon, cursive, serif;
+}
+
+/** Better default styling on buttons. */
+button, select, label
+{
+	font-size: 2em;
+	font-family: Kavoon, cursive, serif;
+}
+
+/*  Makes the text actually legible on the card. */
+.cardText
+{
+	color: white;
+	text-shadow: 0px 0px 20px black;
+}
+
+/** This will hold the card border graphic. */
+#cardBorder
+{
+	background-image: url("./temp.png");
+	
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+	/* width: 1440px; */
+	margin: auto;
+	width: 90%;
+	height: 625px;
+	background-color: grey;
+}
+
+/** The panels that hold the card's contents. */
+#greetingPanel, #artPanel
+{
+	/* width: 700px; */
+	/* height: 600px; */
+	width: 49%;
+	height: 97%;
+	
+	/* This gets hidden behind a background in the JS. */
+	background-color: lightpink;
+}
+
+/** The panel holding the greeting and the signatures. */
+#greetingPanel
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/** The panel holding the card's art. */
+#artPanel
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/** The flexbox wrapper for the greeting contenteditable span. */
+#greetingTextWrapper
+{
+	/* This ensures the greeting bounding box
+	    takes up most of the room on the panel. */
+	flex-grow: 3;
+	
+	display: flex;
+	align-items: center;
+}
+
+/** The flexbox wrapping box for the card's signatures. */
+#signatureTextWrapper
+{
+	flex-grow: 2;
+	
+	display: flex;
+	width: 100%;
+	align-items: end; /* Keeps them at the bottom. */
+	justify-content: space-around;
+}
+
+/** The contenteditable span that holds the greeting. */
+#greetingText
+{
+	/* background-color: red; */
+	
+	/* Prevents text from getting too close
+	   to the borders. */
+	max-width: 90%;
+	margin: auto;
+	
+	font-size: 4em;
+	text-wrap: wrap;
+	text-align: center;
+}
+
+/** The contenteditable spans for signing who the Valentine is for and from. */
+#toSignature, #fromSignature
+{
+	font-size: 2em;
+}
+
+/** The art added to the card. */
+#cardArt
+{
+	/* These ensure the image's aspect ratio stays constant,
+	   and that the image stays within the confines of the card. */
+	width: 100%;
+	object-fit: contain;
+	
+	filter: drop-shadow(0px 0px 5px black);
+}
+
+/** Set of controls under the Valentine's card. */
+#cardControlPanel
+{
+	margin-top: 10px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cardControl
+{
+	margin: 20px;
+}
+
+#generateGreetingButton
+{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+/** Carnaltwin watermark */
+#watermark
+{
+	float: right;
+}

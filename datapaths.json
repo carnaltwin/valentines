@@ -1,0 +1,7 @@
+{
+	"borders": "./data/borders.json",
+	"backgrounds": "./data/backgrounds.json",
+	"wordbank": "./data/wordbank.json",
+	"greetings": "./data/greetings.json",
+	"imagebank": "./data/imagebank.json"
+}
